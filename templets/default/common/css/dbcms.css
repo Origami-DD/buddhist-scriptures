@@ -1,0 +1,169 @@
+/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+/* Tweak navbar brand link to be super sleek
+-------------------------------------------------- */
+body {
+	font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body > .navbar {
+	font-size: 13px;
+}
+/* Change the docs' brand */
+body > .navbar .brand {
+	padding-right: 0;
+	padding-left: 0;
+	margin-left: 20px;
+	float: right;
+	font-weight: bold;
+	color: #aaa;
+	text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	transition: all .2s linear;
+}
+body > .navbar .brand:hover {
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
+}
+.jumbotron {
+	position: relative;
+	padding: 50px 0 20px;
+	color: #000000;
+	text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+	background: #020031; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #020031 0%, #6d3353 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #020031), color-stop(100%, #6d3353)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg, #020031 0%, #6d3353 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg, #020031 0%, #6d3353 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg, #020031 0%, #6d3353 100%); /* IE10+ */
+	background: linear-gradient(45deg, #ffd700 0%, #ffd700 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020031', endColorstr='#6d3353', GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	-webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+	-moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+	box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+}
+.jumbotron h1 {
+	margin: 30px 0;
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1;
+}
+.jumbotron h1 a {
+	color: #fff;
+}
+.lead {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.jumbotron p {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+.chapterlist {
+	margin: 10px auto;
+	max-width: 1000px;
+	font-size: 16px;
+}
+.contentarea {
+	margin: 10px auto;
+	max-width: 850px;
+	font-size: 16px;
+}
+.chapterlist h2 {
+	margin: 20px 0 15px;
+}
+.chapterlist .item {
+	border-bottom: 1px dashed #ddd;
+	margin-top: 10px;
+	line-height: 35px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	text-indent: 10px;
+}
+.friendlink {
+	margin: 20px auto 0;
+	max-width: 1000px;
+}
+.friendlink li {
+	float: left;
+	margin-right: 10px;
+}
+.footer {
+	text-align: center;
+	padding: 20px 0 10px;
+	margin-top: 30px;
+	border-top: 1px solid #e5e5e5;
+	background-color: #f5f5f5;
+}
+.footer p {
+	margin: 10px 0;
+	color: #777;
+}
+.red {
+	color: #000000
+}
+.content {
+	margin-top: 20px;
+	line-height: 2em;
+	font-size: 18px;
+}
+.bottomlink {
+	margin-top: 30px;
+	height: 50px;
+	line-height: 50px;
+}
+.bottomlink .j {
+	color: #aaa;
+}
+.otherlist {
+	margin-top: 30px;
+}
+.otherlist li {
+	line-height: 1.8;
+	border-bottom: 1px dashed #ddd;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+.otherlist div {
+	display: inline-block;
+}
+.otherlist .right {
+	float: right
+}
+.otherlist b {
+	color: orange;
+}
+.otherlist span {
+	color: #aaa;
+	font-size: 12px;
+}
+/*backTop*/
+#backTop {
+	width: 54px;
+	height: 54px;
+	overflow: hidden;
+	right: 15px;
+	position: fixed;
+	z-index: 100;
+	bottom: 30px;
+	display: none
+}
+#backTop a {
+	display: block;
+	border-radius: 2px;
+	width: 54px;
+	height: 54px;
+	overflow: hidden;
+	background: url(../img/ico_fix.png) no-repeat 0 -118px;
+}
+#backTop a:hover {
+	opacity: 0.8;
+}
+.adbox {
+	margin: 10px auto;
+	text-align: center;
+	border: 1px dashed #ccc;
+}
